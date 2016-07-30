@@ -1,0 +1,230 @@
+@font-face {
+font-family: Junction;
+src: url("font/Junction.otf") format("opentype");
+}
+
+body {
+	background-image: url("img/background.jpg");
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.dropdown-menu{
+	background-color: #333;
+}
+.translate{
+	color:#ff6c00 !important;
+}
+
+.jumbotron{
+	margin-top:-40px;
+	padding-bottom: 60px;
+	margin-bottom: 60px;
+	background: url("img/green.png") 40px -10px no-repeat, rgba(10, 10, 10, 0.2);
+	background-size: 25%, auto;
+	min-width: 150px;
+}
+.title-pic{
+	max-height: 350px;
+	margin-top:-40px;
+	height: 250px;
+	background: url("img/header_pic.png") 180px 0px no-repeat;
+	background-size: 80%;
+}
+
+.lang {
+	font-family: 'Didact Gothic';
+	//color: #1dd300; 
+	//color: #009E8E;
+	letter-spacing: 2px;
+	//margin-bottom: 10px;
+}
+
+.panel-title {
+	color: #ff6c00;
+	font-weight: bold;
+}
+
+
+#summary {
+	//max-width: 1350px;
+	width:1100px;
+	font-size: 22px;
+	padding-bottom: 50px;
+	//align-self: center;
+	padding-left: 200px;
+	padding-right: 200px;
+	color: #34cfbe;  //#afe9e3;
+	font-family: 'Didact Gothic'; 
+}
+
+.start {
+	letter-spacing: 2px;
+	text-align: center;
+	color:#ddd;
+	text-shadow: 0px 2px 3px #111;
+	padding-top:15px;
+	padding-bottom:40px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 26px;
+	width: 350px;
+	height: 70px;
+	background-image: url("img/start-button-hover.png");
+	background-size: 100% 80px;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.start:hover {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0px 2px 3px #111;
+	background-image: url("img/start-button-hover2.png");
+	background-repeat: no-repeat;
+}
+.start:focus {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0px 2px 3px #fff;
+}
+/*------------after jumbotron----------------*/
+.info-box {
+	border-radius: 10px;
+	margin: auto;
+	margin-bottom: 20px;
+    width: 70%;
+	color:  #963600; //#00564b;
+	font-weight: bold;
+	background-color: #ff9140;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	font-size: 16px;
+}
+.info-box p {margin:15px;}
+#info1{margin-bottom: 0px;}
+#info2{margin-top: 0px;}
+
+
+.panel-group {
+	width:100%;
+}
+.panel-title {
+	text-transform: uppercase;
+}
+.outer {
+	background-image: url("img/orange.png");
+	background-repeat: no-repeat;
+	background-position: 90% 0px;
+	height:30px;
+}
+
+@media only screen and (max-width: 1000px) { 
+	body{
+		min-width: 500px;
+		display: inline-block;
+	}
+.title-pic{
+	//min-height: 150px;
+	height: 250px;	
+	background-position: 100px 12px;
+	padding-left: 20vw;
+}
+  #summary { 
+  	font-size: 18px;
+  	padding-top: 0px;
+  	padding-bottom:20px;
+    padding-left: 70px;
+	padding-right: 70px;
+  } 
+  .start {
+ 	font-size: 22px; 
+ 	background-size: 90%;
+ 	background-position: center top;
+ 	padding-top: 10px;		
+  }
+  .jumbotron {
+  	width: 100%;
+    background-size: 140px 45px,auto; 
+    background-position: 20px 0px, 100px 0px, 0px 0px;
+    padding-bottom: 40px;
+  }
+  .panel{
+  	min-width: 380px;
+  }
+}
+@media only screen and (min-width: 1200px) { 
+	.title-pic{
+	height: 450px;
+	background-size: 948px 403px;
+	background-position: center;
+ }
+}
+
+.fa-info-circle{
+    margin-left:15px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.fa:hover{
+  transform: rotate(360deg);
+}
+
+#tel2{
+	height:34px;
+	display: flex;
+	align-items:center;
+}
+#web2{
+	height:34px;
+	display: flex;
+	align-items:center;
+}
+.fa-plus:hover{
+  font-size:1.3em;
+}
+b {color:#aaa;}
+
+
+#edu_data, #org_data, #other_lang, #m_t {
+	font-size: 16px;
+	margin:10px;
+	font-weight: bold;
+}
+
+.panel-heading{
+	font-weight: bold;
+	padding-bottom:0px;
+	border: 0px;
+}
+.edu-cont {
+	width:100%;
+	border-style: solid;
+	border-color: #BBC8E1;
+	border-radius: 7px;
+	padding:10px;
+	margin-bottom: 10px;
+}
+.work-cont {
+	width:100%;
+	border-style: solid;
+	border-color: #C3EBBF;
+	border-radius: 7px;
+	padding:10px;
+	margin-bottom: 10px;
+}
+
+#menu_panel{
+	background-color: #eeeeff;
+}
+
+table, th, td {
+    border: 1px solid #777;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}

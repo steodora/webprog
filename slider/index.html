@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Design.css" />
+    <script type="text/javascript" src="slideshow.js"></script>
+
+    <title>Slideshow</title>
+</head>
+<body onload="Load()">
+    <div id="slider">
+        <div id="imgs">
+            <img id="Img3" src="IMG/practice.png"/>
+            <img id="Img2" src="IMG/rajz.png"/>
+            <img id="Img1" src="IMG/hamster-color.gif"/>
+            <img id="Img4" src="IMG/button2.png"/>
+            <img id="Img5" src="IMG/origami.bmp"/>
+            <img id="Img6" src="IMG/tralala.bmp"/>
+        </div>
+        <div id="Snav">
+            <div id="SnavUp">
+                <div id="Scircles">
+                    <ul>
+                        <li id="S0"></li>
+                        <li id="S1"></li>
+                        <li id="S2"></li>
+                        <li id="S3"></li>
+                        <li id="S4"></li>
+                        <li id="S5"></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="SnavMiddle">
+                <img id="Sleft" src="IMG/arrow-left.png" onclick="prev()"/>
+                <img id="Sright" src="IMG/arrow-right.png" onclick="next()"/>
+            </div>
+            <div id="SnavBottom">
+                <p id="SP0">Flash - hamster</p>
+                <p id="SP1">Photoshop - first try</p>
+                <p id="SP2">Photoshop - Wacom tablet, practice</p>
+                <p id="SP3">Photoshop - practice</p>
+                <p id="SP4">Illustrator - origami</p>
+                <p id="SP5">Illustrator</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</body>
+</html>
